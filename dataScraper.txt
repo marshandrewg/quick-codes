@@ -1,0 +1,196 @@
+Hospital #1
+HospitalID 111
+AdministratorID 11101
+Address 111 St NC, 111
+Phone 101
+Specialization1 pediatrics
+chargesperday 10
+Specializatio2 neurology
+chargesperday 15
+Capacity 100
+
+Hospital #2
+HospitalID 222
+AdministratorID 22201
+Address 222 St NC, 222
+Phone 202
+Specialization1 cardiology
+chargesperday 20
+Specialization2 oncology
+chargesperday 25
+Capacity 200
+
+Operator - (Registration office)
+staffID 1001
+HospitalID 111
+Name Simpson
+Age 36
+jobtitle Biller
+professionaltitle Accounts Supervisor
+Department Billing
+Phone 919
+Emailaddress 1001@gmail.com
+Address 21 ABC St, NC 27
+
+Nurse #1
+staffID 1002
+HospitalID 111
+Name David
+Age 45
+jobtitle Nurse
+professionaltitle Senior Nurse
+Department Neurology
+Phone 123
+Emailaddress 1002@gmail.com
+Address 22 ABC St, NC 27
+
+Nurse #2
+staffID 1005
+HospitalID 222
+name Ruth
+age 35
+jobtitle Nurse
+professionaltitle Assistant Nurse
+department pediatrics
+phone 456
+Emailaddress 1005@gmail.com
+address 23 ABC St, NC 27
+
+Doctor #1
+staffID 1003
+HospitalID 111
+name Lucy
+age 40
+jobtitle Doctor
+professionaltitle Senior Surgeon
+department pediatrics
+phone 631
+Emailaddress 1003@gmail.com
+address 42 ABC St, NC 27
+
+Doctor #2
+staffID 1010
+HospitalID 111
+name Steven
+age 65
+jobtitle Doctor
+professionaltitle Senior Surgeon
+department pediatrics
+phone 632
+Emailaddress 1010@gmail.com
+address 48 ABC St, NC 27
+
+Doctor #3
+staffID 1004
+HospitalID 222
+name Joseph
+age 41
+jobtitle Doctor
+professionaltitle cardiologist
+department cardiology
+phone 327
+Emailaddress 1004@gmail.com
+address 51 ABC St, NC 27
+
+Bed #1
+bedsnumber 5001
+HospitalID 111
+patient's SSN
+Specialization1 neurology
+chargesperday 15
+responsiblenurse 1002
+
+Bed #2
+bedsnumber 5002
+HospitalID 111
+patient's SSN
+Specialization1 neurology
+chargesperday 15
+responsiblenurse 1002
+
+Check-in/out 1
+patientID 3001
+HospitalID 111
+responsibledoctor 1003
+bednumber 5001
+startdate 08/05/2019
+enddate
+registrationfee 20
+current diagnosis and treatments abc
+
+Check-in/out 2
+patientID 3002
+HospitalID 111
+responsibledoctor 1003
+bednumber 5002
+startdate 10/15/2019
+enddate
+registrationfee 20
+current diagnosis and treatments def
+
+Patient #1
+patientID 3001
+SSN
+name John
+DOB 02/22/1980
+age 39
+phonenumber 513
+address 81 ABC St , NC 27
+status Treatment complete
+
+Patient #2
+patientID 3002
+SSN
+name Jason
+DOB 04/22/1999
+age 20
+phonenumber 418
+address 82 ABC St , NC 27
+status In treatment
+
+Medical Record #1
+medrecid 2001
+patientID 3001
+HospitalID 111
+startdate 8/05/2019
+enddate 8/31/2019
+responsibledoctor 1003
+prescription antibiotics
+diagnostic Testing for TB
+test TB blood test
+result positive
+treatment TB treatment
+consultationfee 50
+testfee 75
+treatmentfee 200
+
+Medical record #2
+medrecid 2002
+patientID 3001
+hospitalID 111
+startdate 09/01/2019
+enddate 09/16/2019
+responsibledoctor 1003
+prescription continue antibiotics
+diagnostic Testing for TB
+test X-ray chest (TB) Advanced
+result negative
+treatment Not required
+consultationfee 0
+testfee 125
+treatmentfee 0
+
+medrecid 2002
+patientID 3001
+hospitalID 111
+startdate 09/01/2019
+enddate 09/16/2019
+responsibledoctor 1003
+prescriptioncontinue antibiotics
+diagnostic Testing for TB
+test X-ray chest (TB) Advanced
+result negative
+treatment Not required
+consultationfee 0
+testfee 125
+treatmentfee 0
